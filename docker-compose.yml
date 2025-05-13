@@ -1,0 +1,7 @@
+services:
+  ubuntu:
+        image: ubuntu:latest
+        cotainer_name: ubuntu
+        stadin_open: true     # Equivalente al flag -i
+        tty: true             # Equivalente al flag -t
+        restart: "no"         # Para evitar reinicios automáticos
